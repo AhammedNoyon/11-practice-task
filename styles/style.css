@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.poppins-bold-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* shared style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar,.nav-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    max-width: 1047px;
+    margin: 0 auto;
+}
+    /* color list style */
+.AAA{
+    color: rgba(58, 58, 58, 1);
+}
+.second-color {
+    color: rgba(24, 25, 31, 1);
+}
+/* foot-color */
+.foot-color{
+    color: rgba(217, 219, 225, 1);
+}
+    /* primary button style */
+    .primary-btn{
+        font-size: 1rem;
+        font-weight: 800;
+        color: white;
+        padding: 10px 56px 15px 24px;
+        border-radius: 41px;
+        background-color: rgba(224, 44, 109, 1);
+        border: none;
+        margin-top: 16px;
+
+    }
+    
+    /* .primary-btn >.btn-img{
+        padding-top: 15px;
+    } */
+
+/* navbar style */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    gap: 34px;
+}
+.nav-items{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+.nav-items a {
+    text-decoration: none;
+    color:rgba(58, 58, 58, 1);
+}
+.nav-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 133px;
+}
+    /* journey style */
+/* .journey{
+    max-width: 582px;
+    margin: 0 auto;
+
+} */
+.journey-title{
+    font-size: 3.25rem;
+    font-weight: 800;
+
+}
+.journey-description{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 16px;
+}
+    /* main camera style */
+    .camera{
+        max-width: 440px;
+        margin: 0 auto;
+        align-items: center;
+        background-image: url(../images/Circle\ design.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:  bottom right;
+        margin-top: 50px;
+    }
+    .sponsor-company-container{
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+    .company{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        border-top: 2px solid gray;
+        border-bottom: 2px solid gray;
+        align-items: center;
+        justify-items: center;
+        list-style: none;
+        padding: 35px 60px;
+        margin-top: 69px;
+    }
+    .company li{
+        gap: 61px;
+    }
+
+        /* collection card style */
+
+        .populer-collection{
+            margin-top: 100px;
+        }
+        .section-title{
+            font-size: 1.75rem;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .collection-card{
+            border-radius: 8px;
+            padding: 17px 15px;
+            box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+        }
+        .collection-card .card-title{
+            font-size: 1.75rem;
+            font-weight: 500;
+            color: rgba(24, 25, 31, 1);
+            margin-top: 16px;
+        }
+        .collection-card .card-price{
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.87);
+            margin-top: 6px;
+        }
+        .callection-card #card-rating{
+            color: rgba(251, 130, 0, 1);
+        }
+        .collection-card .rating-point{
+            font-size: 0.875rem;
+            font-weight: 800;
+            color: rgba(94, 99, 102, 1);
+        }
+        .callection-card .card-description{
+            font-size: 0.875rem;
+            font-weight: 800;
+            color: rgba(120, 120, 133, 1);
+        }
+        .collection-card-container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 30px;
+        }
+
+            /* future products style */
+            .feature-product{
+                display: flex;
+                align-items: center;
+                gap: 96px;
+                margin-top: 100px;
+                border-radius: 8px;
+            }
+            .feature-title{
+                max-width: 610px;
+                font-size: 2.375rem;
+                font-weight: 800;
+                color: rgba(10, 8, 38, 1);
+            }
+            .feature-description{
+                font-size: 1rem;
+                font-weight: 800;
+                color: rgba(108, 108, 108, 1);
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+
+                /* web-footer style */
+                .web-foot{
+                    max-width: 1440px;
+                    margin: 0 auto;
+                    margin-top: 100px;
+                    background-color: midnightblue;
+                    padding: 50px 589px;
+                  
+                }
+                .foot-container{
+                    max-width: 262px;
+                    margin: 0 auto;
+                    align-items: center;
+                    text-align: center;
+                }
+                .foot-title{
+                    font-size: 1.5rem;
+                    font-weight: 800;
+                    color: white;
+                    
+                }
+                .foot-sub-title{
+                    font-size: 0.875rem;
+                    font-weight: 800;
+                    margin-top: 3px;
+                }
+                .foot-description{
+                    font-size: 0.875rem;
+                    font-weight: 800;
+                    margin-top: 3px;
+                    
+                }
