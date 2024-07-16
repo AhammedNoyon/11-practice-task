@@ -123,13 +123,11 @@ main > section{
         list-style: none;
         padding: 35px 60px;
         margin-top: 69px;
-    }
+        }
     .company li{
         gap: 61px;
-    }
-
+        }
         /* collection card style */
-
         .populer-collection{
             margin-top: 100px;
         }
@@ -174,9 +172,9 @@ main > section{
             grid-template-columns: repeat(3,1fr);
             gap: 30px;
         }
-
             /* future products style */
             .feature-product{
+                max-width: 1110px;
                 display: flex;
                 align-items: center;
                 gap: 96px;
@@ -196,15 +194,13 @@ main > section{
                 margin-top: 16px;
                 margin-bottom: 16px;
             }
-
                 /* web-footer style */
                 .web-foot{
                     max-width: 1440px;
-                    margin: 0 auto;
-                    margin-top: 100px;
-                    background-color: midnightblue;
-                    padding: 50px 589px;
-                  
+                    margin: 100px auto;
+                    /* margin-top: 100px; */
+                    background-color:rgba(10, 8, 38, 1);
+                    padding: 50px 0;
                 }
                 .foot-container{
                     max-width: 262px;
@@ -228,4 +224,61 @@ main > section{
                     font-weight: 800;
                     margin-top: 3px;
                     
+                }
+                .foot-image{
+                    gap: 16px;
+                    background-color: rgba(255, 255, 255, 0.582);
+                    border-radius: 50%;
+                    margin-top: 17px;
+                }
+
+
+                /* responsive this website for mobile */
+                @media screen and (max-width:576px ) {
+                    .navbar ,
+                    .nav-link,
+                    .nav-container,
+                    .company,
+                    .collection-card-container,
+                    .feature-product{
+                        flex-direction: column;
+                        grid-template-columns: repeat(1,1fr);
+                    }
+                    .nav-container{
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .nav-link {
+                        visibility: hidden;
+                    }
+                    /* #re-img{
+                        visibility: visible;
+                        display: flex;
+                        justify-content: flex-end;
+                        
+                    } */
+                    /* .camera{
+                        max-width: 202px;
+                        margin: 0 auto;
+                        max-width: 440px;
+                        margin: 0 auto;
+                        align-items: center;
+                        background-image: url(../images/Circle\ design.svg);
+                        max-width: 257px;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position:  bottom right;
+                        margin-top: 50px;
+                    } */
+                    .company{
+                        gap: 20px;
+                    }
+                    .web-foot{
+                        max-width: 360px;
+                        margin: 0 auto;
+                    }
+                    .foot-container{
+                        max-width: 224px;
+                        margin: 0 auto;
+                    }
                 }
